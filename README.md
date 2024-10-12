@@ -5,6 +5,8 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/  
 catkin_make  
 # Clone this repo
+Use the following command to clone the reop  
+$ git clone --recursive https://github.com/Robot-Wala/agribot.git
 
 # Demos
 Gazebo
@@ -40,6 +42,8 @@ $ rosrun gmapping slam_gmapping scan:=scan
 run the teleop node in a separate terminal and move the robot around once you completed generating the map run the following command to save the map
 
 $ rosrun map_server map_saver -f name_of_map
+
+![grapesfarm](https://github.com/user-attachments/assets/ea8ada20-e71b-4903-b545-f3162341b8dc)
 
 # Navigation
 open the new terminal and run following command so that the navigation will start and once you set the goal in the RViz  robot will autonomously move and reach the goal 
