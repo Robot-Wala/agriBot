@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot name="agribot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Red" />
+<xacro:property name="gray_color" value="Gazebo/Grey" />
+<xacro:property name="black_color" value="Gazebo/Black" />
+
+<gazebo reference="base_link">
+  <material>${body_color}</material>
+</gazebo>
+
+<gazebo reference="lidar_1">
+  <material>${gray_color}</material>
+</gazebo>
+
+<gazebo reference="left_wheel_1">
+  <material>${black_color}</material>
+</gazebo>
+
+<gazebo reference="right_wheel_1">
+  <material>${black_color}</material>
+</gazebo>
+
+</robot>
