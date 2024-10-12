@@ -21,8 +21,9 @@ $ roscore
 Then open second terminal and type the following command      
 $ roslaunch agribot_description agricultureworld.launch  
 
-This will launch up the simulation in Gazebo and you can view the gazebo simulating environment 
-https://github.com/user-attachments/assets/3949c77b-f821-4cb4-93bb-c4c14a1890aa  
+This will launch up the simulation in Gazebo and you can view the gazebo simulating environment  
+
+https://github.com/user-attachments/assets/e9b65b89-5bde-463b-9aa6-b39c715e5a9f
 
 Just run the following command and it will open up RViz which is a robot visualization tool that helps you visualize sensor data from the robot.  
 
