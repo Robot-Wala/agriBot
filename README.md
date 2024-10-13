@@ -1,5 +1,5 @@
 # agribot
-Agribot is the ROS-Based Open-source mobile robot wich is capable of doing Teleoperation, Manual as well as Autonomous Mapping, Navigation, Simulation and referring this project you can make your own fully autonomous robot
+Agribot is the ROS-Based Open-source mobile robot which is capable of doing Teleoperation, Manual as well as Autonomous Mapping, Navigation, Simulation and referring this project you can make your own fully autonomous robot
 #  create and build a catkin workspace: 
 mkdir -p ~/catkin_ws/src  
 cd ~/catkin_ws/  
